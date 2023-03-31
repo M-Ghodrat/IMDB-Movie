@@ -4,6 +4,7 @@ import pandas
 from streamlit_option_menu import option_menu
 from prediction import predict, genre_columns
 import time
+from PIL import Image
 
 tags_dict = {'Bernoulli Naive Bayes': 'suggested_tags_BernoulliNB', 
              'Logistic Regression': 'suggested_tags_LogisticRegression', 
@@ -30,7 +31,13 @@ if selected == "Home":
         st.title('Automated Tagging System')
     
     with col2:
-        st.image(image, width=200)
+
+        st.write("")
+        st.write("")
+        image_ = Image.open(image)
+        new_image = image_.resize((1200, 800))
+        st.image(image)
+        # st.image(image, width=200)
     
     st.header('_proof of concept_: :blue[IMDB Movie Genre Tagging]')
     st.write('')
