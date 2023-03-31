@@ -3,4 +3,3 @@ streamlit_option_menu
 altair
 pandas
 openai
-dotenv

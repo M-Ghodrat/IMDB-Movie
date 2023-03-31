@@ -1,10 +1,10 @@
 import pickle
 import os
 import openai
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import time
 
-load_dotenv(verbose=True)
+# load_dotenv(verbose=True)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 PATH = os.getcwd()
