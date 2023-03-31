@@ -30,7 +30,7 @@ if selected == "Home":
         st.title('Automated Tagging System')
     
     with col2:
-        st.image(image, caption=None, width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+        st.image(image, width=200)
     
     st.header('_proof of concept_: :blue[IMDB Movie Genre Tagging]')
     st.write('')
