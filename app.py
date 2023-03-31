@@ -19,7 +19,7 @@ with st.sidebar:
         icons=['house-fill', 'gear-fill', 'chat-square-quote-fill'], menu_icon="bookmarks-fill", default_index=1)
 
 if selected == "Home":
-    image = '..\LOGO.png'
+    image = '.\LOGO.png'
     
     col1, col2= st.columns([5,1])
     
