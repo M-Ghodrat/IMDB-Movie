@@ -35,7 +35,7 @@ if selected == "Home":
         st.write("")
         st.write("")
         image_ = Image.open(image)
-        new_image = image_.resize((1200, 800))
+        new_image = image_.resize((1600, 1000))
         st.image(image)
         # st.image(image, width=200)
     
