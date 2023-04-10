@@ -36,9 +36,8 @@ if selected == "Home":
         st.write("")
         image_ = Image.open(image)
         new_image = image_.resize((1600, 1000))
-        st.image(image)
-        # st.image(image, width=200)
-    
+        # st.image(image)
+        
     st.header('_proof of concept_: :blue[IMDB Movie Genre Tagging]')
     st.write('')
     st.write('This app predictgenre for IMDB movies basewd on the plot synopsis! :movie_camera:')
