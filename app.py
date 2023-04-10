@@ -20,7 +20,7 @@ with st.sidebar:
         icons=['house-fill', 'gear-fill', 'chat-square-quote-fill'], menu_icon="bookmarks-fill", default_index=1)
 
 if selected == "Home":
-    image = './LOGO.png'
+    # image = './LOGO.png'
     
     col1, col2= st.columns([5,1])
     
@@ -34,8 +34,8 @@ if selected == "Home":
 
         st.write("")
         st.write("")
-        image_ = Image.open(image)
-        new_image = image_.resize((1600, 1000))
+        # image_ = Image.open(image)
+        # new_image = image_.resize((1600, 1000))
         # st.image(image)
         
     st.header('_proof of concept_: :blue[IMDB Movie Genre Tagging]')
